@@ -3,8 +3,13 @@ Izveidoja: Viesturs Emerbergs DP1-1
 ---
 # Matemātikas tēma - Kvadrātvienādojums un kvadrāttrinoms
 # Programmas apraksts
-Atverot kodu
----
+Atverot kodu programma piedāva lietotājam izvēlēties:
+* Lasīt teoriju
+* Pildīt treniņa uzdevumus
+* Vai pildīt kontroldarbu 
+* Pēc izvēles veikšanas un uzdevumu izpildīšanas būs iespēja atzgriezties izvēlnē, lai veiktu citus uzdevumus
+* Lai saņemtu semestra vērtējumu ir jāizpilda abus kontroldarba variantus
+
 # Programmēšanas vadola
 * Python 3.10.0
 ---
