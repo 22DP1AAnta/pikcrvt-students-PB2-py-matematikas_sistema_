@@ -211,10 +211,11 @@ def vertejums():
     vert = open('Atzimes.txt', 'w', encoding = 'utf-8')
     vert.write(f'{vards, uzvards} grupa {grupa} dabūja semestra atzīmi {round((punkti1+punkti2)*2.5/2)} no . Tēmā - Kvadrātvienādojums un kvadrāttrinoms.')
     vert.close()
-    kvadratvienadojums = open('Atzimes.txt', 'r', encoding='utf-8')
-    print(kvadratvienadojums.read())
-    kvadratvienadojums.close()
+    atzime = open('Atzimes.txt', 'r', encoding='utf-8')
+    print(atzime.read())
+    atzime.close()
 
 izdarit_izveli()
 os.system("pause")
+
 
