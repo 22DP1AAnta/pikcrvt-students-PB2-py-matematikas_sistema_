@@ -8,8 +8,10 @@ Atverot kodu programma piedāva lietotājam izvēlēties:
 * Lasīt teoriju
 * Pildīt treniņa uzdevumus (patstāvīgi ievadītus vai dotus)
 * Vai pildīt kontroldarbus(abus jāizpilda)
+---
+Pēc izvēles veikšanas un uzdevumu izpildīšanas būs iespēja atzgriezties izvēlnē, lai veiktu citus uzdevumus vai izlasītu teoriju atkal.
 
-Pēc izvēles veikšanas un uzdevumu izpildīšanas būs iespēja atzgriezties izvēlnē, lai veiktu citus uzdevumus.
+Svarīgi ir ievērot instrukcijas, lai pareizi veiktu uzdevumus!
 
 Lai saņemtu semestra vērtējumu ir jāizpilda abus kontroldarba variantus.
 
