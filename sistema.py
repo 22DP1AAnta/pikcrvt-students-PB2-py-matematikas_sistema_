@@ -26,9 +26,9 @@ def vardi():
     grupa = input('Grupa:')
     
 def parbaudes_darbi():
-    print("Ir 2 varianti tēmā - Kvadrātvienādojumi")
+    print("Ir 2 varianti tēmā - Kvadrātvienādojumi raksti(1 vai 2)")
     print("Semestra atzīmi varēsi apskatīt pēc abu darbu izpildes raskti: 3")
-    izvele = input("Kuru variantu pildīsi pirmo(1/2)?")
+    izvele = input("Izvēle: ")
     if izvele == '1':
         kvadratvienadojumi_pd1()
     elif izvele == '2':
@@ -63,7 +63,7 @@ def doti_uzdevumi():
     print("Uzdevumi treniņam")
     print()
     pareizi = 0
-    atbildes_uzdevumi = [['-2', '-1']]
+    atbildes_uzdevumi = [['-2', '-1'],['5','3']]
     print('Aprēķini kvadrātvienādojuma x2+3x+2=0 saknes!\nraksti mazāko sakni pirmo!')
 
     lietotaja_atbildes1 = [input('Ievadi pirmo sakni: '), input('Ievadi otro sakni: ')]
@@ -74,7 +74,7 @@ def doti_uzdevumi():
     lietotaja_atbildes2 = [input('(x+: '), input('(x+: ')]
     if lietotaja_atbildes2 == atbildes_uzdevumi[1]:
         pareizi += 1
-    print(f'Tev bija pareizi{pareizi}no 3 jautājumiem ')
+    print(f'Tev bija pareizi{pareizi}no 2 jautājumiem ')
     izvele = input("Vēlies atzgriezties izvēlnē(Jā/Nē)?")
     while izvele != "Jā":
         izvele = input("Vēlies atzgriezties izvēlnē(Jā/Nē)?")
@@ -148,7 +148,7 @@ def kvadratvienadojumi_pd2():
     if punkti2 < 1:
         print(f"Tavs vērtējums ir {punkti2+1}")
     else:
-        print("Tavs vērtējums ir: ", round(punkti1 / uzd_skaits * 10))
+        print("Tavs vērtējums ir: ", round(punkti2 / uzd_skaits * 10))
     izvele = input("Vēlies atzgriezties izvēlnē(Jā/Nē)?")
     while izvele != "Jā":
         izvele = input("Vēlies atzgriezties izvēlnē(Jā/Nē)?")
@@ -208,9 +208,14 @@ def kvadratvienadojumi_pd1():
     else:
         izdarit_izveli()
 def vertejums():
-    vert = open('Atzimes.txt', 'w', encoding = 'utf-8')
-    vert.write(f'{vards, uzvards} grupa {grupa} dabūja semestra atzīmi {round((punkti1+punkti2)*2.5/2)} no . Tēmā - Kvadrātvienādojums un kvadrāttrinoms.')
-    vert.close()
+    print()
+    vertejums = open('Atzimes.txt', 'w', encoding = 'utf-8')
+    if punkti1 == 0 and punkti2 == 0:
+        vertejums.write(f'{vards} {uzvards} grupa {grupa} saņēma semestra atzīmi {1} Tēmā - Kvadrātvienādojums un kvadrāttrinoms.')
+        vertejums.close()
+    else:
+        vertejums.write(f'{vards} {uzvards} grupa {grupa} saņēma semestra atzīmi {round((punkti1+punkti2)*2.5/2)} Tēmā - Kvadrātvienādojums un kvadrāttrinoms.')
+        vertejums.close()
     atzime = open('Atzimes.txt', 'r', encoding='utf-8')
     print(atzime.read())
     atzime.close()
