@@ -1,0 +1,71 @@
+1.Tēma Kvadrātvienādojumi
+
+Vienādojumu ax2+bx+c=0, kur a, b un c - reāli skaitļi, a≠0, sauc par kvadrātvienādojumu.
+Piemērs:
+ 4x2−3x+1=0a=4b=−3c=1
+Kvadrātvienādojuma saknes var atrast pēc formulām:
+x1=−b+D−−√2ax2=−b−D−−√2a,
+kur D=b2−4ac.
+ 
+D sauc par diskriminantu.
+Pēc diskriminanta vērtības var noteikt kvadrātvienādojuma sakņu skaitu.
+ Ja D<0 (negatīvs), tad vienādojumam nav atrisinājuma reālo skaitļu kopā
+Ja D=0, tad vienādojumam ir divas vienādas saknes
+Ja D>0 (pozitīvs), tad vienādojumam ir divas dažādas saknes.
+Kvadrātvienādojumu x2+bx+c=0 var risināt arī pēc Vjeta teorēmas:
+{x1⋅x2=cx1+x2=−b 
+Ievēro: koeficients pie x2 ir a=1!
+(Atrisināšanas piemērus skat. pie uzdevumiem.)
+Nepilnie kvadrātvienādojumi
+Ir divu veidu nepilnie kvadrātvienādojumi:
+Ja c=0, tad vienādojums ir ax2+bx=0;
+Ja b=0, tad ax2+c=0.
+  
+Nepilnos kvadrātvienādojumus drīkst risināt ar diskriminanta formulām, bet racionālāk būs izvēlēties speciālas metodes:
+ 
+1) ax2+bx=0 risina, sadalot reizinātājos (iznesot pirms iekavām x).
+ 
+x(ax+b)=0
+Tātad x=0 vai ax+b=0. (Jo divu skaitļu reizinājums ir nulle tad un tikai tad, ja vismaz viens no šiem skaitļiem ir 0.)
+Viena sakne ir 0, bet otra sakne ir x=−ba.
+Piemērs:
+2x2−30x=0x(2x−30)=01)x=02)2x−30=0⇔2x=30⇔x=15
+ 
+Atbilde: x1=0, x2=15.
+2) ax2+c=0 risina, pārnesot saskaitāmos dažādās pusēs un tad velkot kvadrātsakni.
+ 
+ax2=−c (izdala abas puses ar a)
+x2=−ca
+|x|=−ca−−−√
+(Ievēro: velkot sakni, iegūst x moduļa vērtību!)
+ 
+Tas nozīmē, ka
+x1=−ca−−−√x2=−−ca−−−√
+Piemērs:
+4x2−100=04x2=100∣∣:4x2=25|x|=25−−√x1=5;x2=5
+ 
+Atbilde: x1=5; x2=−5.
+Piemērs:
+x2+36=0x2=−36
+Šim vienādojumam nav atrisinājuma, jo kvadrātsakni nedrīkst vilkt no negatīva skaitļa (zinām arī, ka skaitli kāpinot kvadrātā, nevar iegūt negatīvu skaitli).
+ 
+Atbilde: sakņu nav.
+
+Kvadrāttrinoma sadalīšana reizinātājos
+
+Šo metodi var lietot gan pilnajiem, gan nepilnajiem kvadrāttrinomiem
+aprēķina kvadrāttrinoma saknes;
+lieto formulu ax2+bx+c=a(x−x1)(x−x2), kur x1 un x2 ir saknes.
+Piemērs:
+Sadalīt reizinātājos kvadrāttrinomu z2−4z+3!
+ 
+1) Vienādojuma z2−4z+3=0 saknes ir z1=1 un z2=3.
+2) z2−4z+3=(z−1)(z−3)
+Piemērs:
+Sadalīt reizinātājos izteiksmi 3x4−2x2−1!
+ 
+Apzīmējam x2 ar a.
+Tad vienādojums pārtop par 3a2−2a−1. Tā saknes ir a1=1 un a2=13.
+ 
+3a2−2a−1=3(a−1)(a+13)3x4−2x2−1=3(x2−1)(x2+13)=3(x−1)(x+1)(x2+13)
+
